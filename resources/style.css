@@ -1,0 +1,142 @@
+/* 
+   colorscheme: https://coolors.co/01295f-437f97-f2bb05-849324-fd151b
+*/
+
+  
+div:default {
+    visibility: visible;
+}
+
+a::after {
+    content: "→";
+}
+
+p + a {
+    font-style: bold;
+}
+
+img ~ p {
+    font-weight: normal;
+}
+
+div > p {
+    visibility: visible;
+}
+
+div img {
+    border-radius: 15%;
+}
+
+h1, h2 {
+    color: #01295F;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(to bottom right,  #437F97, #84828F);
+    color: #01295F;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    background-color: #B9B8D3;
+    border-style: solid;
+    border-width: medium;
+    border-color: #01295F;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: -5px 5px;
+}
+
+table {
+    border-style: solid;
+    border-width: medium;
+    border-color: #01295F;
+    border-radius: 20px;
+    background-color: #849324;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+table.center-table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+p.nav {
+    text-transform: lowercase;
+    text-align: left;
+}
+
+.center-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip: rect(0px,60px,200px,0px);
+    border-radius: 20px;
+    object-fit: cover;
+    float: none;
+    clear: none;
+}
+
+div.contact {
+    background-image: url("white-background.jpg");
+}
+
+.center-input-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip: rect(0px,60px,200px,0px);
+    border-radius: 20px;
+    object-fit: cover;
+    transform: scaleY(1.5);
+    transform: scaleX(1.5);
+    clear: inherit;
+}
+
+img.filter {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clip: rect(0px,60px,200px,0px);
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+img.prank {
+    visibility: hidden;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: outside;
+}
